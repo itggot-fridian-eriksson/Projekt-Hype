@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <h1>Solar roadways</h1>
+        <h1 class="Rubrik">Solar roadways</h1>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/main.css">
 
     </head>
 
     <body>
-        <h1>Rubrik</h1>
         
-           <ul class="navigation">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
-  <li><a href="products.html">Products</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="solar_roadways.html">Solar roadways</a></li>
-</ul>
+  <p><a href="index.html" class="link">Home</a>
+  <a href="about.html"class="link">About</a>
+  <a href="products.html"class="link">Products</a>
+  <a href="contact.html"class="link">Contact</a>
+  <a href="solar_roadways.html"class="link">Solar roadways</a></p>
+        
+        <h1 class="Rubrik">Contact</h1>
+        
+
+        <form id="form" name="form" method="post" action="">
+
+        <label for="fnamn">Förnamn:</label> <br />
+        <input type="text" name="fnamn" id="fnamn" /> <br />
+
+        <label for="enamn">Efternamn:</label> <br />
+        <input type="text" name="enamn" id="enamn" /> <br />
+
+        <label for="epost">E-postadress:</label> <br />
+        <input type="text" name="epost" id="epost" /> <br />
+
+        <label for="meddelande">Meddelande:</label> <br />
+        <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br />
+
+        <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+
+        </form>
+
+    
     </body>
+
 </html>

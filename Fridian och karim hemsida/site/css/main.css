@@ -1,0 +1,28 @@
+.Rubrik {
+    text-align: center;
+    font-size: 3em;
+    color: aliceblue;
+    background-color: black;
+    
+   
+}
+   
+
+.textrubrik{
+    font-size: 200%;
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 1em;
+    padding-left: 100px
+    
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    border-bottom-width: 
+    
+} 

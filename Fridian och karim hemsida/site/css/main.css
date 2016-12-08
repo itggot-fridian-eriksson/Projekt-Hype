@@ -7,22 +7,35 @@
    
 }
    
-
 .textrubrik{
     font-size: 200%;
     text-align: center;
+    
 }
+    
 
-.text{
+.underrubrik{
     text-align: center;
-    font-size: 1em;
-    padding-left: 100px
+    color: white;
+    align-content: center;
     
 }
-
-ul{
-    list-style-type: none;
-    background-color: black;
-    border-bottom-width: 
     
-} 
+.text{
+    color: white;
+    text-align: center;
+    background-color: black
+   
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/bg_road2.jpg);
+        background-size: cover;
+}
+.link{
+}
